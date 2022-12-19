@@ -118,10 +118,14 @@ h3 {
     display: flexbox;
     justify-content: center;
     margin-top: 1090px;
-    background-color: #748572;
+    background-color: var(--navy);
     font-size: 55px;
     color: var(--white);
     text-decoration:solid;  
+}
+.flex-item :hover {
+    color: #ac2436;
+    font-size: 35px;
 }
  
 .flex-item {
@@ -133,14 +137,24 @@ h3 {
     max-width: 100%;
     color: var(--white);
     font-size: 25px;
-    background-color: var(--navy);
+    background-color: var(--green);
+}
+.Bttm {
+     background-color: var(--navy);
+     background-size: 100%;
+     padding-bottom: 55px;
+
 }
 
 .Bttm h5{
  display: flex;
  justify-content: center;
  font-size: 55px;
- color: var(--navy);
+ color: var(--white);
+}
+
+.address :hover {
+    color: var(--red);
 }
 
 
