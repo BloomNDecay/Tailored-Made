@@ -80,6 +80,7 @@ h2{
     box-shadow: #2f344a 15px 0 25px;
     font-size: 40px;
     color: var(--white);   
+    border-radius: 15px 15px;
 }
 
 
@@ -93,8 +94,13 @@ main {
     font-size: 35px;
     text-align: center;
 }
+
 h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    
 }
 
 
@@ -102,8 +108,10 @@ h3 {
     display: inline-block;
     font-size: 30px;
     background-color: var(--red);
-    width:30%;
+    width:40%;
     float: right;
+    border-radius: 15px;
+    margin-top: -50px ;
 }
 
 .wrks  {
@@ -112,24 +120,23 @@ h3 {
     margin-top: 1090px;
     background-color: #748572;
     font-size: 55px;
-    color: var(--navy);
-    text-decoration:solid;
-    
-
+    color: var(--white);
+    text-decoration:solid;  
 }
-
  
 .flex-item {
-    display: flexbox;
-    justify-content: space-between;
-
+    display: flex;
+    flex-direction: column;
     border: 5px solid var(--white);
     background-color: var(--green);
+    max-height: 100%;
+    max-width: 100%;
     color: var(--white);
-    display: inline-block;
     font-size: 25px;
     background-color: var(--navy);
 }
+
+
 
 
 
