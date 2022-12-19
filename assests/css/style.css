@@ -136,6 +136,12 @@ h3 {
     background-color: var(--navy);
 }
 
+.Bttm h5{
+ display: flex;
+ justify-content: center;
+ font-size: 55px;
+ color: var(--navy);
+}
 
 
 
